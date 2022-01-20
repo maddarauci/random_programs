@@ -6,7 +6,9 @@ PROGRAM HeronFormula
       IMPLICIT NONE
 
       REAL      :: a, b, c      ! three sides.
-      REAL      :: s            ! triangle area 
+      REAL      :: s            ! half of the perimeter
+      REAL      :: Area         ! trianlge area
+
       LOGICAL   :: cond_1, cond_2       ! two logical conditions 
 
 
